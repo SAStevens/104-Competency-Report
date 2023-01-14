@@ -1,0 +1,74 @@
+body{
+    background-color: lightgrey; 
+}
+.banner{
+    border: 2px solid black;
+    text-align: center;
+    font-style:italic;
+    background-color:rgb(87, 120, 177);
+    color: white;
+}
+.nav-item{
+    font-size:larger;
+}
+h5 p{
+    text-align: center;
+}
+#pets{
+    width:100%;
+    margin-top:25px;
+    border-spacing:1px;
+    border-collapse: separate;
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+    padding:1px;
+    background-color:rgb(122, 148, 193);
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding:1px;
+}
+tbody tr:nth-child(odd){
+    background: white;
+}
+.alert-error{
+    border: 2px solid red;
+}
+h5{
+    margin: 15px;
+    padding:15px;
+    text-align:justify;
+}
+ul{
+    margin-left: 25px;
+}
+section{
+    margin: 20px;
+}
+#pics{
+    height: 250px;
+    display:table;
+    width:90%;
+    margin: 20px auto;
+}
+#pics a{
+    display:table-cell;
+    text-align:center;
+    width:33%;
+}
+#pics img{
+    width:100%;
+    max-width:550px;
+}
+img{
+    max-height:641px;
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84%;
+}
